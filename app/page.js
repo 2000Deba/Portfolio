@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 import TypedText from '@/components/TypedText';
 import { Fade } from 'react-awesome-reveal';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGithub } from 'react-icons/fa';
@@ -27,7 +28,7 @@ const Home = () => {
         <div className="w-full lg:w-1/2 text-center lg:text-left">
           <Fade direction="left" triggerOnce>
             <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
-              Hi, I'm <span className="text-blue-500">Debasish</span>
+              Hi, I&apos;m <span className="text-blue-500">Debasish</span>
             </h1>
             {/* <p className="text-lg md:text-xl mb-6">
               A passionate <span className="font-semibold">Full-Stack Web Developer</span> building modern, scalable web applications.
@@ -40,7 +41,7 @@ const Home = () => {
         </div>
         <div className="w-full lg:w-1/2">
           <Fade direction="right" triggerOnce>
-            <img
+            <Image
               // src="images/Debasish Seal.jpg"
               // src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=1031&auto=format&fit=crop"
               src="https://www.ismartrecruit.com/upload/blog/main_image/6_ways_to_find_and_hire_developers_at_a_low_cost.jpg"
