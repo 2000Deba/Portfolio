@@ -70,7 +70,7 @@ const Home = () => {
       <Fade triggerOnce>
         <div className="text-center">
           <h2 className="text-3xl font-bold mb-4">Want to work together?</h2>
-          <p className="mb-6 text-lg">I'm open to freelance, internship, and full-time opportunities.</p>
+          <p className="mb-6 text-lg">I&apos;m open to freelance, internship, and full-time opportunities.</p>
           <a href="/contact" className="inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition font-medium">Contact Me</a>
         </div>
       </Fade>

@@ -53,7 +53,7 @@ const Projects = () => {
             <div className="max-w-6xl mx-auto px-4 py-20 text-white">
                 <motion.h1 initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="text-4xl font-bold mb-12 text-center">
                     <p className="py-2 my-2">My Projects</p>
-                    <p className="py-2 my-2">Things I've worked on. Some of them ---------</p></motion.h1>
+                    <p className="py-2 my-2">Things I&apos;ve worked on. Some of them ---------</p></motion.h1>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((project, index) => (

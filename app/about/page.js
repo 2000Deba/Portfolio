@@ -46,7 +46,7 @@ const About = () => {
           <p className="mb-4">🎓 I’m currently learning <strong className="text-yellow-300">Next.js</strong>, diving deeper into backend systems, and exploring cloud deployment.</p>
           <p className="mb-4">
             🚀 With a strong focus on creating user-friendly, responsive, and accessible web apps,
-            I'm always eager to learn, build, and contribute to amazing projects.
+            I&apos;m always eager to learn, build, and contribute to amazing projects.
           </p>
           <p>
             🛠️ Other than that I also create and learn websites with{" "}
@@ -55,7 +55,7 @@ const About = () => {
             </span>
           </p>
           <p>
-            🎯 Also I've used{" "}
+            🎯 Also I&apos;ve used{" "}
             <span className="text-yellow-300">
               GitHub pages, Render and Vercel
             </span>{" "}
