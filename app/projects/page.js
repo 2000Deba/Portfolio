@@ -6,7 +6,7 @@ const projects = [
     {
         title: "Portfolio Website",
         description: "A modern portfolio built with Next.js and Tailwind CSS.",
-        link: "#",
+        link: "https://portfolio-mqbv.vercel.app/",
         image: "/portfolio.png",
     },
     {
