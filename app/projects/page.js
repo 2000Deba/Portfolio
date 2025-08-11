@@ -7,7 +7,7 @@ const projects = [
         title: "Portfolio Website",
         description: "A modern portfolio built with Next.js and Tailwind CSS.",
         link: "#",
-        image: "/portfolio.jpg",
+        image: "/portfolio.png",
     },
     {
         title: "PassOp - Password Manager",

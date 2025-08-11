@@ -2,7 +2,7 @@
 
 A modern and responsive **Full-Stack Web Developer Portfolio** built with **Next.js 14**, **Tailwind CSS**, and **React Typed** for a dynamic and professional online presence.
 
-![Portfolio Screenshot](screenshot.jpg)
+![Portfolio Screenshot](screenshot.png)
 
 ## 🚀 Live Demo
 🔗 [View Portfolio](https://your-portfolio-link.com)
