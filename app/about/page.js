@@ -26,8 +26,6 @@ const About = () => {
           <Image
             src={profilePic}
             alt="Debasish Seal"
-            // width={400}
-            // height={400}
             className="rounded-2xl shadow-lg object-cover" />
         </motion.div>
 

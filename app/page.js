@@ -30,23 +30,21 @@ const Home = () => {
             <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
               Hi, I&apos;m <span className="text-blue-500">Debasish</span>
             </h1>
-            {/* <p className="text-lg md:text-xl mb-6">
-              A passionate <span className="font-semibold">Full-Stack Web Developer</span> building modern, scalable web applications.
-            </p> */}
             <TypedText />
             <a href="/projects" className="inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">
               View My Projects
             </a>
           </Fade>
         </div>
-        <div className="w-full lg:w-1/2">
+        <div className="w-full lg:w-1/2 relative">
           <Fade direction="right" triggerOnce>
             <Image
-              // src="images/Debasish Seal.jpg"
-              // src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=1031&auto=format&fit=crop"
-              src="https://www.ismartrecruit.com/upload/blog/main_image/6_ways_to_find_and_hire_developers_at_a_low_cost.jpg"
+              src="/developer.jpg"
               alt="Developer at work"
-              className="w-full h-auto rounded-xl shadow-xl" />
+              width={800}
+              height={0}
+              className="w-full h-auto rounded-xl shadow-xl"
+              priority />
           </Fade>
         </div>
       </div>

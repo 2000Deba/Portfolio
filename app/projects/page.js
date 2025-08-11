@@ -8,42 +8,36 @@ const projects = [
         description: "A modern portfolio built with Next.js and Tailwind CSS.",
         link: "#",
         image: "/portfolio.jpg",
-        // image: "https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=1031&auto=format&fit=crop",
     },
     {
         title: "PassOp - Password Manager",
         description: "Pass Op is a password manager which saves password in the localStorage.",
         link: "https://2000deba.github.io/PassOp/",
         image: "/passop.jpg",
-        // image: "https://images.unsplash.com/photo-1542831371-d531d36971e6?w=800",
     },
     {
         title: "Todo App (React)",
         description: "This is a Todo list making task performer app. Which saves all the tasks to the localStorage.",
         link: "https://2000deba.github.io/todo-app-react/",
         image: "/todoreact.jpg",
-        // image: "https://images.unsplash.com/photo-1542831371-d531d36971e6?w=800",
     },
     {
         title: "iChat App - Fullstack Chat App",
         description: "Real-time chat app using Socket.IO and Node.js.",
         link: "https://ichat-vtpa.onrender.com/",
         image: "/chatapp.jpg",
-        // image: "https://images.unsplash.com/photo-1559526324-593bc073d938?w=800",
     },
     {
         title: "Demo Education Website",
         description: "Single page website with sticky navbar which converts to hamburger menu ro navigation drawer for mobile devices.",
         link: "https://2000deba.github.io/Project-3/",
         image: "/education.jpg",
-        // image: "https://images.unsplash.com/photo-1542831371-d531d36971e6?w=800",
     },
     {
         title: "Demo Food Delivery Website",
         description: "Single page website with Sticky navbar for both Laptop, Desktop/computer and all mobile devices.",
         link: "https://2000deba.github.io/Project-2/",
         image: "/fooddelivery.jpg",
-        // image: "https://images.unsplash.com/photo-1542831371-d531d36971e6?w=800",
     },
 ];
 
