@@ -32,7 +32,7 @@ const Home = () => {
               Hi, I&apos;m <span className="text-blue-500">Debasish</span>
             </h1>
             <TypedText />
-            <Link href="/projects" className="inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">
+            <Link href="/projects" className="inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition cursor-pointer">
               View My Projects
             </Link>
           </Fade>
@@ -70,7 +70,7 @@ const Home = () => {
         <div className="text-center">
           <h2 className="text-3xl font-bold mb-4">Want to work together?</h2>
           <p className="mb-6 text-lg">I&apos;m open to freelance, internship, and full-time opportunities.</p>
-          <Link href="/contact" className="inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition font-medium">Contact Me</Link>
+          <Link href="/contact" className="inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition font-medium cursor-pointer">Contact Me</Link>
         </div>
       </Fade>
     </div>

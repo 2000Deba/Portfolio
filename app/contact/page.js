@@ -119,7 +119,7 @@ const Contact = () => {
                             <label className="block mb-2 text-sm font-semibold">Message</label>
                             <textarea name="message" value={formData.message} onChange={handleChange} className="w-full p-3 rounded bg-gray-800 border border-gray-700 focus:outline-none focus:border-cyan-400" rows="5" placeholder="Ellaborate your concern..."></textarea>
                         </div>
-                        <button type="submit" className="bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-3 rounded-lg font-semibold transition">
+                        <button type="submit" className="bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-3 rounded-lg font-semibold transition cursor-pointer">
                             Send Message
                         </button>
                         {status && <p className="mt-4 text-center">{status}</p>}
@@ -136,15 +136,15 @@ const Contact = () => {
                         <div className="space-y-3">
                             <p>
                                 <FontAwesomeIcon icon={faEnvelope} className="text-cyan-400 mr-2" />
-                                <strong>Email:</strong> <Link href="mailto:deep2000seal@gmail.com" className="text-cyan-400 hover:underline">deep2000seal@gmail.com</Link>
+                                <strong>Email:</strong> <Link href="mailto:deep2000seal@gmail.com" className="text-cyan-400 hover:underline cursor-pointer">deep2000seal@gmail.com</Link>
                             </p>
                             <p>
                                 <FontAwesomeIcon icon={faGithub} className="text-cyan-400 mr-2" />
-                                <strong>GitHub:</strong> <Link href="https://github.com/2000Deba" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline">github.com/2000Deba</Link>
+                                <strong>GitHub:</strong> <Link href="https://github.com/2000Deba" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline cursor-pointer">github.com/2000Deba</Link>
                             </p>
                             <p>
                                 <FontAwesomeIcon icon={faLinkedin} className="text-cyan-400 mr-2" />
-                                <strong>LinkedIn:</strong> <Link href="https://linkedin.com/in/debasishseal" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline">linkedin.com/in/debasishseal</Link>
+                                <strong>LinkedIn:</strong> <Link href="https://linkedin.com/in/debasishseal" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline cursor-pointer">linkedin.com/in/debasishseal</Link>
                             </p>
                             <p><FontAwesomeIcon icon={faMapMarkerAlt} className="text-cyan-400 mr-2" />
                                 <strong>Location:</strong> Kolkata, India</p>

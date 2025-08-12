@@ -58,7 +58,7 @@ const Projects = () => {
                             <div className="p-6">
                                 <h2 className="text-2xl font-semibold mb-2">{project.title}</h2>
                                 <p className="text-gray-400 mb-4">{project.description}</p>
-                                <Link href={project.link} className="text-cyan-400 hover:underline">View Project →</Link>
+                                <Link href={project.link} className="text-cyan-400 hover:underline cursor-pointer">View Project →</Link>
                             </div>
                         </motion.div>
                     ))}
