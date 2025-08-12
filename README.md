@@ -1,6 +1,6 @@
 # 🌐 Personal Portfolio
 
-A modern and responsive **Full-Stack Web Developer Portfolio** built with **Next.js 14**, **Tailwind CSS**, and **React Typed** for a dynamic and professional online presence.
+A modern and responsive **Full-Stack Web Developer Portfolio** built with **Next.js 15**, **Tailwind CSS**, and **React Typed** for a dynamic and professional online presence.
 
 ![Portfolio Screenshot](screenshot.png)
 
@@ -11,7 +11,7 @@ A modern and responsive **Full-Stack Web Developer Portfolio** built with **Next
 
 ## 📋 Features
 
-- ⚡ **Next.js 14 (App Router)** for fast and SEO-friendly pages
+- ⚡ **Next.js 15 (App Router)** for fast and SEO-friendly pages
 - 🎨 **Tailwind CSS** for sleek, responsive design
 - ⌨️ **React Typed** for dynamic typing animation in hero section
 - 📱 Mobile-first responsive design
@@ -34,7 +34,7 @@ A modern and responsive **Full-Stack Web Developer Portfolio** built with **Next
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/2000Deba/Portfolio.git
 
 # 2️⃣ Navigate into the project
 cd portfolio
