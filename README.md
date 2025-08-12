@@ -5,7 +5,7 @@ A modern and responsive **Full-Stack Web Developer Portfolio** built with **Next
 ![Portfolio Screenshot](screenshot.png)
 
 ## 🚀 Live Demo
-🔗 [View Portfolio](https://your-portfolio-link.com)
+🔗 [View Portfolio](https://portfolio-mqbv.vercel.app/)
 
 ---
 
