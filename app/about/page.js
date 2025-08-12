@@ -36,12 +36,12 @@ const About = () => {
           transition={{ duration: 0.6 }}
           className="text-lg leading-relaxed text-gray-300">
           <p className="mb-4">
-            👋 Hi, I’m <strong>Debasish Seal</strong>, a passionate{" "}
+            👋 Hi, I&apos;m <strong>Debasish Seal</strong>, a passionate{" "}
             <span className="text-cyan-400">Full-Stack Web Developer</span> based in India.
             I love building modern web applications using technologies like{" "}
             <span className="text-yellow-300">React, Next.js, Node.js, MongoDB</span> and more.
           </p>
-          <p className="mb-4">🎓 I’m currently learning <strong className="text-yellow-300">Next.js</strong>, diving deeper into backend systems, and exploring cloud deployment.</p>
+          <p className="mb-4">🎓 I&apos;m currently learning <strong className="text-yellow-300">Next.js</strong>, diving deeper into backend systems, and exploring cloud deployment.</p>
           <p className="mb-4">
             🚀 With a strong focus on creating user-friendly, responsive, and accessible web apps,
             I&apos;m always eager to learn, build, and contribute to amazing projects.
@@ -60,7 +60,7 @@ const About = () => {
             for hosting and interested to learn and explore more platforms.
           </p>
           <p>🎯 In my free time, I enjoy exploring new tools.</p>
-          <p className="pb-4">⚡ When I’m not coding, I enjoy reading, learning about cybersecurity, or having a good cup of chai ☕!</p>
+          <p className="pb-4">⚡ When I&apos;m not coding, I enjoy reading, learning about cybersecurity, or having a good cup of chai ☕!</p>
           <p className="mb-4 pt-4"><strong className="text-cyan-400">Goals / Objective:</strong> To pursue a creative and challenging career engineering field where I can acquire new skills and knowledge and can work with an active and motivated team of professionals to create a significant outcome towards industry, society as well as environment.</p>
         </motion.div>
       </div>

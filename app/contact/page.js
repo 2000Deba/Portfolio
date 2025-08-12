@@ -143,7 +143,7 @@ const Contact = () => {
                             </p>
                             <p>
                                 <FontAwesomeIcon icon={faLinkedin} className="text-cyan-400 mr-2" />
-                                <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/debasish-seal" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline">linkedin.com/in/debasish-seal</a>
+                                <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/debasishseal" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline">linkedin.com/in/debasish-seal</a>
                             </p>
                             <p><FontAwesomeIcon icon={faMapMarkerAlt} className="text-cyan-400 mr-2" />
                                 <strong>Location:</strong> Kolkata, India</p>
