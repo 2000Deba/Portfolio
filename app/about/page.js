@@ -3,6 +3,7 @@
 import Image from "next/image";
 import profilePic from "/public/Debasish Seal.jpg";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -121,12 +122,12 @@ const About = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         className="mt-10 text-center">
-        <a
+        <Link
           href="/Debasish_Resume.pdf"
           download
-          className="bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-3 rounded-lg font-semibold transition">
+          className="bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-3 rounded-lg font-semibold transition cursor-pointer">
           📄 Download Resume
-        </a>
+        </Link>
       </motion.div>
     </div>
   );

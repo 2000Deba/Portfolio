@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useState } from "react";
+import Link from 'next/link'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Bounce } from 'react-toastify';
@@ -135,15 +136,15 @@ const Contact = () => {
                         <div className="space-y-3">
                             <p>
                                 <FontAwesomeIcon icon={faEnvelope} className="text-cyan-400 mr-2" />
-                                <strong>Email:</strong> <a href="mailto:deep2000seal@gmail.com" className="text-cyan-400 hover:underline">deep2000seal@gmail.com</a>
+                                <strong>Email:</strong> <Link href="mailto:deep2000seal@gmail.com" className="text-cyan-400 hover:underline">deep2000seal@gmail.com</Link>
                             </p>
                             <p>
                                 <FontAwesomeIcon icon={faGithub} className="text-cyan-400 mr-2" />
-                                <strong>GitHub:</strong> <a href="https://github.com/2000Deba" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline">github.com/2000Deba</a>
+                                <strong>GitHub:</strong> <Link href="https://github.com/2000Deba" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline">github.com/2000Deba</Link>
                             </p>
                             <p>
                                 <FontAwesomeIcon icon={faLinkedin} className="text-cyan-400 mr-2" />
-                                <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/debasishseal" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline">linkedin.com/in/debasishseal</a>
+                                <strong>LinkedIn:</strong> <Link href="https://linkedin.com/in/debasishseal" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline">linkedin.com/in/debasishseal</Link>
                             </p>
                             <p><FontAwesomeIcon icon={faMapMarkerAlt} className="text-cyan-400 mr-2" />
                                 <strong>Location:</strong> Kolkata, India</p>

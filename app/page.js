@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from "next/image";
+import Link from 'next/link';
 import TypedText from '@/components/TypedText';
 import { Fade } from 'react-awesome-reveal';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGithub } from 'react-icons/fa';
@@ -31,9 +32,9 @@ const Home = () => {
               Hi, I&apos;m <span className="text-blue-500">Debasish</span>
             </h1>
             <TypedText />
-            <a href="/projects" className="inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">
+            <Link href="/projects" className="inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">
               View My Projects
-            </a>
+            </Link>
           </Fade>
         </div>
         <div className="w-full lg:w-1/2 relative">
@@ -69,7 +70,7 @@ const Home = () => {
         <div className="text-center">
           <h2 className="text-3xl font-bold mb-4">Want to work together?</h2>
           <p className="mb-6 text-lg">I&apos;m open to freelance, internship, and full-time opportunities.</p>
-          <a href="/contact" className="inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition font-medium">Contact Me</a>
+          <Link href="/contact" className="inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition font-medium">Contact Me</Link>
         </div>
       </Fade>
     </div>
