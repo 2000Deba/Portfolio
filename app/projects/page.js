@@ -5,6 +5,12 @@ import Link from 'next/link';
 
 const projects = [
     {
+        title: "Get me A Chai - Fund your projects with chai",
+        description: "This website is a crowdfunding platform for creators.",
+        link: "https://getmychai.vercel.app/",
+        image: "/getmychai.png",
+    },
+    {
         title: "Portfolio Website",
         description: "A modern portfolio built with Next.js and Tailwind CSS.",
         link: "https://portfolio-mqbv.vercel.app/",
