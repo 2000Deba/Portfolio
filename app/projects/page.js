@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const projects = [
     {
-        title: "Get me A Chai - Fund your projects with chai",
+        title: "Get Me A Chai - Fund your projects with chai",
         description: "This website is a crowdfunding platform for creators.",
         link: "https://getmychai.vercel.app/",
         image: "/getmychai.png",
