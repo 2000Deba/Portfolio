@@ -5,6 +5,12 @@ import Link from 'next/link';
 
 const projects = [
     {
+        title: "BitLinks - Your trusted URL shortener",
+        description: "Fast, simple, privacy-first URL shortener built with Next.js",
+        link: "https://bitlinks-jet.vercel.app/",
+        image: "/bitlinks.png",
+    },
+    {
         title: "Get Me A Chai - Fund your projects with chai",
         description: "This website is a crowdfunding platform for creators.",
         link: "https://getmychai.vercel.app/",
