@@ -18,8 +18,8 @@ const TypedText = () => {
                             "Web Designer",
                             "Mechanical Engineer",
                         ]}
-                        typeSpeed={50}
-                        backSpeed={30}
+                        typeSpeed={80}
+                        backSpeed={50}
                         loop
                     />
                 </span>{" "}
