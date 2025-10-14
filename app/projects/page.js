@@ -5,6 +5,12 @@ import Link from 'next/link';
 
 const projects = [
     {
+        title: "BitTree - All Your Links in One Place",
+        description: "BitTree is your personal hub to share multiple links in one place. Create, customize, and manage your digital identity easily.",
+        link: "https://bittree-deba.vercel.app/",
+        image: "/bittree.png",
+    },
+    {
         title: "BitLinks - Your trusted URL shortener",
         description: "Fast, simple, privacy-first URL shortener built with Next.js",
         link: "https://bitlinks-jet.vercel.app/",
