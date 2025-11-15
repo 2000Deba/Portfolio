@@ -5,6 +5,12 @@ import Link from 'next/link';
 
 const projects = [
     {
+        title: "NoPass - Secure Password Manager",
+        description: "NoPass lets you securely store and manage all your passwords and credit cards in one encrypted place. Simple, fast, and private — built with Next.js and MongoDB",
+        link: "https://nopass-deba.vercel.app/",
+        image: "/nopass.png",
+    },
+    {
         title: "BitTree - All Your Links in One Place",
         description: "BitTree is your personal hub to share multiple links in one place. Create, customize, and manage your digital identity easily.",
         link: "https://bittree-deba.vercel.app/",
