@@ -56,7 +56,7 @@ http://localhost:3000
 **👤 Debasish Seal**
 
 - GitHub: [@2000Deba](https://github.com/2000Deba)
-- Live Demo: [NoPass](https://debasishseal.vercel.app/)
+- Live Demo: [Portfolio](https://debasishseal.vercel.app/)
 
 ---
 
