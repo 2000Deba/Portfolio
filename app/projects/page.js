@@ -1,14 +1,23 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from 'next/link';
 
 const projects = [
     {
-        title: "NoPass - Secure Password Manager",
+        title: "NoPass - Secure Password Manager (Web)",
         description: "NoPass lets you securely store and manage all your passwords and credit cards in one encrypted place. Simple, fast, and private — built with Next.js and MongoDB",
         link: "https://nopass-deba.vercel.app/",
         image: "/nopass.png",
+    },
+    {
+        title: "NoPassMobile - Secure Password Manager (Android)",
+        description:
+            "Privacy-first Android password manager built with React Native + Expo. Encrypted storage, clean UI, and Google Play Protect scanned APK.",
+        apkLink: "https://github.com/2000Deba/NoPassMobile/releases",
+        repoLink: "https://github.com/2000Deba/NoPassMobile",
+        image: "/nopassmobile.png",
     },
     {
         title: "BitTree - All Your Links in One Place",
@@ -71,18 +80,37 @@ const Projects = () => {
         <>
             <div className="max-w-6xl mx-auto px-4 py-20 text-white">
                 <motion.h1 initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="text-4xl font-bold mb-12 text-center">
-                    <p className="py-2 my-2">My Projects</p>
-                    <p className="py-2 my-2">Things I&apos;ve worked on. Some of them ---------</p></motion.h1>
+                    <p className="py-2">My Projects</p>
+                    <p className="py-2 text-lg text-gray-400">Things I&apos;ve worked on — real-world, production-focused projects.</p></motion.h1>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((project, index) => (
                         <motion.div
-                            key={index} initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: index * 0.2 }} className="bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-cyan-500/30 transition">
-                            <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
-                            <div className="p-6">
+                            key={index} initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: index * 0.2 }} whileHover={{ y: -8 }} className="bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-cyan-500/30 transition-all duration-300">
+                            {/* Image */}
+                            <div className="relative w-full h-48 overflow-hidden group">
+                                <Image src={project.image} alt={project.title} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" priority={index === 0} />
+                                {/* Dark overlay */}
+                                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-500" />
+                            </div>
+                            {/* Content */}
+                            <div className="p-6 flex flex-col h-full">
                                 <h2 className="text-2xl font-semibold mb-2">{project.title}</h2>
                                 <p className="text-gray-400 mb-4">{project.description}</p>
-                                <Link target="_blank" rel="noopener noreferrer" href={project.link} className="text-cyan-400 hover:underline cursor-pointer">View Project →</Link>
+
+                                {/* Web Project */}
+                                {project.link && (
+                                    <Link target="_blank" rel="noopener noreferrer" href={project.link} className="text-cyan-400 hover:underline cursor-pointer">View Project →</Link>
+                                )}
+
+                                {/* Mobile Project (NoPassMobile) */}
+                                {project.apkLink && (
+                                    <div className="flex flex-wrap gap-4 mt-4">
+                                        <Link target="_blank" rel="noopener noreferrer" href={project.apkLink} className="inline-flex items-center gap-2 bg-cyan-600 hover:bg-cyan-700 text-white px-4 py-2 rounded-md text-sm whitespace-nowrap transition">⬇️ Download APK</Link>
+
+                                        <Link target="_blank" rel="noopener noreferrer" href={project.repoLink} className="inline-flex items-center border border-cyan-500 text-cyan-400 hover:bg-cyan-500/10 px-4 py-2 rounded-md text-sm whitespace-nowrap transition">GitHub Repo</Link>
+                                    </div>
+                                )}
                             </div>
                         </motion.div>
                     ))}

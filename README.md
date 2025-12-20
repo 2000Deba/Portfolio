@@ -47,3 +47,35 @@ npm run dev
 
 # 5️⃣ Open in browser
 http://localhost:3000
+```
+
+---
+
+### 👨‍💻 Author
+
+**👤 Debasish Seal**
+
+- GitHub: [@2000Deba](https://github.com/2000Deba)
+- Live Demo: [NoPass](https://debasishseal.vercel.app/)
+
+---
+
+## 📜 License
+
+This project is **source-available** under a custom license.
+
+You are allowed to view, fork, and contribute to this repository for learning
+and contribution purposes only.
+
+❌ Reuse, redistribution, rebranding, modification, or commercial use is **not allowed**
+without explicit permission from the author.
+
+See the [LICENSE](./LICENSE) file for full details.
+
+---
+
+### ⭐ Support
+
+If you find this project useful, please consider giving it a ⭐ star.
+
+For bugs or feature requests, feel free to open an issue.

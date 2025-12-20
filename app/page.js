@@ -3,22 +3,41 @@ import Image from "next/image";
 import Link from 'next/link';
 import TypedText from '@/components/TypedText';
 import { Fade } from 'react-awesome-reveal';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGithub } from 'react-icons/fa';
-import { SiMongodb, SiTailwindcss, SiExpress, SiNextdotjs, SiGit, SiPostman } from 'react-icons/si';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGithub, FaLock, } from 'react-icons/fa';
+import { SiTypescript, SiMongodb, SiTailwindcss, SiExpress, SiNextdotjs, SiGit, SiPostman, SiExpo, SiVercel, SiRender, SiRazorpay, SiCloudinary, SiGooglecloud, SiAuth0, SiRadixui, SiGmail, } from 'react-icons/si';
 
 const skills = [
   { name: "HTML", icon: <FaHtml5 size={30} /> },
   { name: "CSS", icon: <FaCss3Alt size={30} /> },
   { name: "JavaScript", icon: <FaJs size={30} /> },
+  { name: "TypeScript", icon: <SiTypescript size={30} /> },
+
   { name: "React", icon: <FaReact size={30} /> },
   { name: "Next.js", icon: <SiNextdotjs size={30} /> },
   { name: "Tailwind CSS", icon: <SiTailwindcss size={30} /> },
+  { name: "shadcn/ui", icon: <SiRadixui size={30} /> },
+
+  { name: "React Native", icon: <FaReact size={30} /> },
+  { name: "Expo", icon: <SiExpo size={30} /> },
+
   { name: "Node.js", icon: <FaNodeJs size={30} /> },
   { name: "Express.js", icon: <SiExpress size={30} /> },
   { name: "MongoDB", icon: <SiMongodb size={30} /> },
+
+  { name: "Auth.js", icon: <SiAuth0 size={30} /> },
+  { name: "Backend Encryption", icon: <FaLock size={30} /> },
+  { name: "Google App Password", icon: <SiGmail size={30} /> },
+
+  { name: "Razorpay", icon: <SiRazorpay size={30} /> },
+  { name: "Cloudinary", icon: <SiCloudinary size={30} /> },
+
   { name: "Git", icon: <SiGit size={30} /> },
   { name: "GitHub", icon: <FaGithub size={30} /> },
   { name: "REST API", icon: <SiPostman size={30} /> },
+
+  { name: "Google Cloud", icon: <SiGooglecloud size={30} /> },
+  { name: "Vercel", icon: <SiVercel size={30} /> },
+  { name: "Render", icon: <SiRender size={30} /> },
 ];
 
 const Home = () => {

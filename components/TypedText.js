@@ -15,6 +15,8 @@ const TypedText = () => {
                             "MERN Stack Developer",
                             "Frontend Developer",
                             "Backend Developer",
+                            "React Native and Expo Developer",
+                            "Android App Developer (Expo)",
                             "Web Designer",
                             "Mechanical Engineer",
                         ]}
