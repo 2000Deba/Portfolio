@@ -1,8 +1,13 @@
 # 🌐 Personal Portfolio
 
+> ⚠️ **IMPORTANT NOTICE**  
+> This project is **source-available**, NOT open-source.  
+> Deployment, redistribution, rebranding, or reuse is strictly prohibited  
+> without explicit written permission from the author.
+
 A modern and responsive **Full-Stack Web Developer Portfolio** built with **Next.js 15**, **Tailwind CSS**, and **React Typed** for a dynamic and professional online presence.
 
-![Portfolio Screenshot](screenshot.png)
+![Portfolio Screenshot](./public/portfolio.png)
 
 ## 🚀 Live Demo
 🔗 [View Portfolio](https://portfolio-mqbv.vercel.app/)
@@ -32,6 +37,9 @@ A modern and responsive **Full-Stack Web Developer Portfolio** built with **Next
 
 ## 📦 Installation & Setup
 
+> ⚠️ This section is provided **only for learning and contribution purposes**.  
+> Deployment or production use is **not allowed**.
+
 ```bash
 # 1️⃣ Clone the repository
 git clone https://github.com/2000Deba/Portfolio.git
@@ -51,26 +59,36 @@ http://localhost:3000
 
 ---
 
+## 📦 Deployment Notes
+
+- This project is deployed on **Vercel** for personal and demonstration purposes.
+
+- Due to encryption keys, authentication providers, and email configurations,
+this repository is **not intended for public or private redeployment under any name, domain, or branding**.
+
+## 🔐 Usage Policy
+
+- Viewing and learning: ✅ Allowed
+
+- Contributions (PRs): ⚠️ Allowed (all contributions become property of the author).
+
+- By submitting a pull request, you agree that your contribution
+becomes part of the project and is subject to the same license terms.
+
+- Forking: ⚠️ Allowed by GitHub, not permission to reuse
+
+- Deployment / Rebranding / Commercial use: ❌ Not allowed
+
+All forked copies remain bound to the same license terms.
+
+---
+
 ### 👨‍💻 Author
 
 **👤 Debasish Seal**
 
 - GitHub: [@2000Deba](https://github.com/2000Deba)
 - Live Demo: [Portfolio](https://debasishseal.vercel.app/)
-
----
-
-## 📜 License
-
-This project is **source-available** under a custom license.
-
-You are allowed to view, fork, and contribute to this repository for learning
-and contribution purposes only.
-
-❌ Reuse, redistribution, rebranding, modification, or commercial use is **not allowed**
-without explicit permission from the author.
-
-See the [LICENSE](./LICENSE) file for full details.
 
 ---
 

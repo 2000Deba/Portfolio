@@ -14,8 +14,37 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Debasish Seal | Full-Stack Web Developer",
-  description: "Welcome to my professional portfolio site built with Next.js and Tailwind CSS.",
+  title: "Debasish Seal | Full-Stack Developer",
+  description: "Portfolio of Debasish Seal, a Full Stack Developer building modern web and mobile applications using React, Next.js, Node.js, and related technologies.",
+
+  metadataBase: new URL("https://debasishseal.vercel.app"),
+
+  openGraph: {
+    title: "Debasish Seal | Full Stack Developer",
+    description:
+      "Explore projects, skills, and work by Debasish Seal — Full Stack Developer focused on modern, scalable, and secure applications.",
+    url: "https://debasishseal.vercel.app",
+    siteName: "Debasish Seal Portfolio",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Debasish Seal — Full Stack Developer Portfolio",
+      },
+    ],
+    locale: 'en_US',
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Debasish Seal | Full Stack Developer",
+    description:
+      "Full Stack Developer portfolio featuring multiple real-world web and mobile projects.",
+    images: ["/og-image.png"],
+    creator: '@ShilDebasish',
+  },
 };
 
 export default function RootLayout({ children }) {
