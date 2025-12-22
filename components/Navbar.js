@@ -102,7 +102,7 @@ const Navbar = () => {
                     </ul>
 
                     <Link href="https://github.com/2000Deba" target="_blank">
-                        <button className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 px-3 py-1 rounded-md ring-1 ring-white">
+                        <button className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 px-3 py-1 rounded-md ring-1 ring-white cursor-pointer">
                             <Image src="/github.svg" alt="GitHub" width={20} height={20} className="w-5 h-5" />
                             <span>GitHub</span>
                         </button>
