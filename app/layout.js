@@ -14,10 +14,45 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Debasish Seal | Full-Stack Developer",
-  description: "Portfolio of Debasish Seal, a Full Stack Developer building modern web and mobile applications using React, Next.js, Node.js, and related technologies.",
+  title: {
+    default: "Debasish Seal | Full Stack Developer",
+    template: "%s | Debasish Seal",
+  },
+
+  description: "Portfolio of Debasish Seal, a Full Stack Developer building modern, scalable, and secure web and mobile applications using React, Next.js, Node.js, and related technologies.",
 
   metadataBase: new URL("https://debasishseal.vercel.app"),
+
+  keywords: [
+    "Debasish Seal",
+    "Full Stack Developer",
+    "Web Developer",
+    "React Developer",
+    "Next.js Developer",
+    "JavaScript Developer",
+    "TypeScript Developer",
+    "Node.js Developer",
+    "MongoDB",
+    "Portfolio",
+    "Software Engineer",
+    "India",
+  ],
+
+  authors: [{ name: "Debasish Seal", url: "https://debasishseal.vercel.app" }],
+  creator: "Debasish Seal",
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+
+  alternates: {
+    canonical: "https://debasishseal.vercel.app",
+  },
 
   openGraph: {
     title: "Debasish Seal | Full Stack Developer",
